@@ -1,0 +1,15 @@
+body{
+background:"абстрактный.jpg"; 
+background-size: cover;
+}
+canvas{
+margin-top: 80px;
+animation-name: oke;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+
+@keyframes oke{
+    from{box-shadow: 1px 1px 69px cyan;}
+    to {box-shadow: 1px 1px 69px lime;}
+}
